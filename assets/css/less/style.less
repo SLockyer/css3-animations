@@ -1,0 +1,120 @@
+@import "animations";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+div.wrapper{
+
+	max-width: 1000px;
+	margin: 0 auto;
+
+	h1{
+
+		text-align: center;
+		font-family: 'Poiret One', cursive;
+		text-transform: uppercase;
+		border-bottom: 1px solid black;
+		padding-bottom: 5px;
+
+	}
+
+
+	div.circle{
+		border-radius: 50%;
+		background: black;
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin: 25px;
+		display: table;
+		div{
+			display:table-cell;
+			vertical-align: middle;
+
+					h1{
+						color: white;
+						border: 0;
+						font-size: 15px;
+					}
+
+
+		}
+
+		&.wiggle{
+		    -webkit-animation: wiggle infinite 1s linear;
+		       -moz-animation: wiggle infinite 1s linear;
+		         -o-animation: wiggle infinite 1s linear;
+		            animation: wiggle infinite 1s linear;
+		}
+		&.throb{
+		    -webkit-animation: throb infinite 1s linear;
+		       -moz-animation: throb infinite 1s linear;
+		         -o-animation: throb infinite 1s linear;
+		            animation: throb infinite 1s linear;
+		}
+		&.flutter{
+		    -webkit-animation: flutter infinite 1s linear;
+		       -moz-animation: flutter infinite 1s linear;
+		         -o-animation: flutter infinite 1s linear;
+		            animation: flutter infinite 1s linear;
+		}
+		&.bounce{
+		    -webkit-animation: bounce infinite 1s linear;
+		       -moz-animation: bounce infinite 1s linear;
+		         -o-animation: bounce infinite 1s linear;
+		            animation: bounce infinite 1s linear;
+		}
+		&.bounce-shadow{
+		    -webkit-animation: bounce-with-shadow infinite 1s linear;
+		       -moz-animation: bounce-with-shadow infinite 1s linear;
+		         -o-animation: bounce-with-shadow infinite 1s linear;
+		            animation: bounce-with-shadow infinite 1s linear;
+		}
+		&.tada{
+		    -webkit-animation: tada infinite 1s linear;
+		       -moz-animation: tada infinite 1s linear;
+		         -o-animation: tada infinite 1s linear;
+		            animation: tada infinite 1s linear;
+		}
+		&.flip-out{
+		    -webkit-animation: flipOut infinite 2s linear;
+		       -moz-animation: flipOut infinite 2s linear;
+		         -o-animation: flipOut infinite 2s linear;
+		            animation: flipOut infinite 2s linear;
+		}
+		&.flip-in{
+		    -webkit-animation: flipIn infinite 2s linear;
+		       -moz-animation: flipIn infinite 2s linear;
+		         -o-animation: flipIn infinite 2s linear;
+		            animation: flipIn infinite 2s linear;
+		}
+		&.floating{
+		    -webkit-animation: float infinite 1s linear;
+		       -moz-animation: float infinite 1s linear;
+		         -o-animation: float infinite 1s linear;
+		            animation: float infinite 1s linear;
+		}
+		&.zooming{
+		    -webkit-animation: zoom infinite 2s linear;
+		       -moz-animation: zoom infinite 2s linear;
+		         -o-animation: zoom infinite 2s linear;
+		            animation: zoom infinite 2s linear;
+		}
+		&.swinging{
+		    -webkit-animation: swing infinite 5s linear;
+		       -moz-animation: swing infinite 5s linear;
+		         -o-animation: swing infinite 5s linear;
+		            animation: swing infinite 5s linear;
+		}
+		&.pulsing{
+		    -webkit-animation: pulse infinite 1s linear;
+		       -moz-animation: pulse infinite 1s linear;
+		         -o-animation: pulse infinite 1s linear;
+		            animation: pulse infinite 1s linear;
+		}		
+		&.tilt{
+		    -webkit-animation: tilt infinite 2s linear;
+		       -moz-animation: tilt infinite 2s linear;
+		         -o-animation: tilt infinite 2s linear;
+		            animation: tilt infinite 2s linear;
+		}	
+	}
+}
